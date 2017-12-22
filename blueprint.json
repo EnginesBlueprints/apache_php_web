@@ -19,7 +19,7 @@
     "software": {
       "display": {
         "title": "Apache PHP MySQL website with FTP",
-        "label": "Apache_php_web",
+        "label": "lamp",
         "description": "Apache PHP MySQL website with FTP"
       },
       "license": {
@@ -27,11 +27,11 @@
         "url": "http://www.gnu.org/copyleft/gpl.html"
       }
     },
-    "timestamp": "2017-12-20T13:15:50+11:00"
+    "timestamp": "2017-12-22T16:54:01+11:00"
   },
   "software": {
     "base": {
-      "name": "apache_php_web",
+      "name": "website",
       "framework": "apache_php",
       "deployment_type": "web",
       "http_protocol": "http_and_https",
