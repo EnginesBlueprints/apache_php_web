@@ -27,7 +27,7 @@
         "url": "http://www.gnu.org/copyleft/gpl.html"
       }
     },
-    "timestamp": "2017-12-23T13:38:53+11:00"
+    "timestamp": "2018-01-11T11:11:55+11:00"
   },
   "software": {
     "base": {
@@ -83,18 +83,6 @@
           "db_password": "_Engines_System(random(10))",
           "collation": "utf8_general_ci",
           "full_access": "0"
-        }
-      },
-      {
-        "publisher_namespace": "EnginesSystem",
-        "type_path": "filesystem/service/ftp",
-        "variables": {
-          "volume": "_Engines_Environment(volume_name)",
-          "folder": "/",
-          "username": "_Engines_Builder(engine_name)",
-          "password": "_Engines_System(random(8))",
-          "rw_access": "true",
-          "ftp_gid": "_Engines_Builder(data_gid)"
         }
       }
     ],
